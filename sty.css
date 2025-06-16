@@ -1,0 +1,146 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.grid-container img {
+  width:100%;
+  height:250px;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+
+.section {
+  max-width:1000px;
+  margin:50px auto;
+  padding: 0 20px;
+  /* text-align: center; */
+
+}
+
+h1 {
+  /* color: green; */
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.date {
+  color: gray;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  /* height: 200px; */
+  background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQGODmTGyvdSmg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698214830141?e=2147483647&v=beta&t=7EqGqfQzAVAAq8Pfhd03g91ux2VDppddKQrQUgsBmYM');
+  
+     background-size: cover;
+    
+      background-position: center center;
+      background-repeat: no-repeat;
+      padding:100px 100px;
+      margin: 0px 200px 0px 200px;
+
+}
+     
+/* https://media.istockphoto.com/id/577949148/photo/vintage-stylized-photo-of-paintbrushes-closeup-and-artist-palett.jpg?s=612x612&w=0&k=20&c=8fuPBz7S5wGDOMix0t0ubL0578WpIslf8INTDYBQU4Y= */
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3lP2vJIfWx8diZa1G1_gCNgyu-JQ5NY8wWg&s */
+/* https://media.licdn.com/dms/image/v2/D4D12AQGODmTGyvdSmg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1698214830141?e=2147483647&v=beta&t=7EqGqfQzAVAAq8Pfhd03g91ux2VDppddKQrQUgsBmYM */
+/* https://miro.medium.com/v2/resize:fit:1400/1*2te7vQD0D1jdzavnPiduZg.jpeg */
+/* https://www.dlgsc.wa.gov.au/images/default-source/culture-and-the-arts-images/artists-and-guests-from-yinjaa-barni-art-look-at-artworks-on-the-opening-night-of-the-revealed-2024-exhibition-fremantle-arts-centre.-may-2024.-photo-by-ella-mcdonald.-image-courtesy-of-aachwa-.jpg?Status=Master&sfvrsn=18feb840_1 */
+
+.firstgrid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+  margin: 0px 200px 0px 200px;
+
+}
+.grid-item2{
+ /* padding: 20px; */
+ background-image:url(https://miro.medium.com/v2/resize:fit:1400/1*2te7vQD0D1jdzavnPiduZg.jpeg);
+ margin: 15px;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.grid-item3{
+background-image:url(https://m.media-amazon.com/images/I/71D3ArI9AiL._AC_UF894,1000_QL80_DpWeblab_.jpg);
+margin: 15px;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.button{
+    background-color: rgb(103, 39, 39);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+}
+
+
+
+
+.grid-item6{
+    background:url(https://images.stockcake.com/public/5/5/e/55e6aef4-a438-4a8f-8747-3584b58bba83_large/art-gallery-viewing-stockcake.jpg);
+   margin: 15px;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(197, 187, 187);
+    height: 130px;
+    margin:0px 200px 0px 200px ;
+    padding-left: 30px;
+    
+}
+.boxtext{
+    text-align: center ;
+    text-decoration: underline;
+    margin: 0 20px;
+    margin-top: 60px;
+}
+.nav-menu ul
+{
+    background-color: #1d1c1c;
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px 20px;
+    margin:0px 200px 0px 200px ;
+    margin-top: 15px;
+    
+
+}
+.navbar ul li{
+    display: inline;
+    position:absolute;
+}
+.navbar a:hover{
+    color: rgb(67, 66, 66);
+}
+ .nav-menu ul li a{ 
+    color: white; 
+    text-decoration: none;
+    font-size: 18px;
+ }
+
+
+
+
+
+
+
+
+
+
+
